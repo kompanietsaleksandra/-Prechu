@@ -6,14 +6,15 @@ html {
   font-size: 14px;
   color: #6c6c6c;
   line-height: 24px;
+  font-family: "Myriad Pro";
 }
 
 .wrapper {
   position: relative;
-  overflow: hidden;
 }
 
 .container {
+  max-width: 976px;
   padding: 0 15px;
   box-sizing: content-box;
   margin: 0 auto;
@@ -55,9 +56,20 @@ img {
   display: inline-block;
 }
 
+.bg-color-blue {
+  background-color: #5094f2;
+}
+
+.bg-color-red {
+  background-color: #d94748;
+}
+
+.bg-color-yellow {
+  background-color: #ebbb11;
+}
+
 @media (min-width: 641px ){
   .container {
-    max-width: 976px;
     padding: 0 30px;
   }
 }

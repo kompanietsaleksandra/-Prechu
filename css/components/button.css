@@ -1,0 +1,49 @@
+.button {
+    background-color: #5094f2;
+    font-size: 16px;
+    color: #fff;
+    border: none;
+    transition: 0.4s;
+}
+.button:hover {
+    background-color: #fff;
+    color: #5094f2;
+    transition: 0.4s;
+    cursor: pointer;
+}
+.button-img {
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+}
+.slide-button {
+    padding: 7px 0;
+    margin: 0 auto;
+    min-width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@media (min-width: 481px ){
+    .button {
+        font-size: 28px;
+        padding: 6px 8px 6px 8px;
+    }
+    .slide-button {
+        min-width: 237px;
+    }
+}
+@media (min-width: 641px ){
+    .button {
+        font-size: 22px;
+        min-width: 171px;
+        padding: 9px 12px 9px 10px;
+    }
+    .button-img {
+        max-width: 25px;
+    }
+    .slide-button {
+        padding: 7px 0;
+        margin: 30px 0 0 0;
+    }
+}

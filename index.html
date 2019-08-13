@@ -6,42 +6,231 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Prechu HW8</title>
     <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.0.5/css/swiper.css">
   </head>
   <body>
-    <header class="header">
-      <div class="container">
-        <div class="header-container">
-          <div class="header-logo">
-            <a href="#">
-              <img src="images/logo.png" alt="logo">
-            </a>
-          </div>
-          <div class="header-nav-menu-mobile">
-            <div class="header-burger-menu">
-              <span></span>
-              <span></span>
-              <span></span>
+    <div class="wrapper">
+      <header class="header">
+        <div class="container">
+          <div class="header-container">
+            <div class="header-logo">
+              <a href="#">
+                <img src="images/logo.png" alt="logo">
+              </a>
+            </div>
+            <div class="header-nav-menu-mobile">
+              <input id="toggle" type="checkbox"/>
+              <label for="toggle" class="header-burger-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </label>
+              <div class="mobile-menu">
+                <ul class="nav-list">
+                  <li class="nav-item active">
+                    <a href="#" class="link">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="link">Products</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="link">Services</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#" class="link">Contact</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <div class="header-nav-menu">
+              <ul class="nav-list">
+                <li class="nav-item active">
+                  <a href="#" class="link">Home</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="link">Products</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="link">Services</a>
+                </li>
+                <li class="nav-item">
+                  <a href="#" class="link">Contact</a>
+                </li>
+              </ul>
             </div>
           </div>
-          <div class="header-nav-menu">
-            <ul class="nav-list">
-              <li class="nav-item active">
-                <a href="#" class="link">Home</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="link">Products</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="link">Services</a>
-              </li>
-              <li class="nav-item">
-                <a href="#" class="link">Contact</a>
-              </li>
-            </ul>
+        </div>
+      </header>
+      <section class="hero">
+        <!-- Slider main container -->
+        <div class="swiper-container">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="swiper-slide-content">
+                <img class="swiper-slide-image" src="images/phone.png" alt="">
+                <div class="swiper-slide-content-text">
+                  <p class="hero-title">Lorem Ipsum is simply</p>
+                  <p class="hero-subtitle">
+                    Dummy text of the printing & typesetting
+                    text of the printing & typesetting
+                  </p>
+                  <button class="button slide-button"><img src="images/button.png" class="button-img" alt="img">Sing up now</button>
+                </div>
+              </div>
+              <img class="swiper-background-image" src="images/background.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-content">
+                <img class="swiper-slide-image" src="images/phone.png" alt="">
+                <div class="swiper-slide-content-text">
+                  <p class="hero-title">Lorem Ipsum is simply</p>
+                  <p class="hero-subtitle">
+                    Dummy text of the printing & typesetting
+                    text of the printing & typesetting
+                  </p>
+                  <button class="button slide-button"><img src="images/button.png" class="button-img" alt="img">Sing up now</button>
+                </div>
+              </div>
+              <img class="swiper-background-image" src="images/background.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-content">
+                <img class="swiper-slide-image" src="images/phone.png" alt="">
+                <div class="swiper-slide-content-text">
+                  <p class="hero-title">Lorem Ipsum is simply</p>
+                  <p class="hero-subtitle">
+                    Dummy text of the printing & typesetting
+                    text of the printing & typesetting
+                  </p>
+                  <button class="button slide-button"><img src="images/button.png" class="button-img" alt="img">Sing up now</button>
+                </div>
+              </div>
+              <img class="swiper-background-image" src="images/background.png" alt="">
+            </div>
+            <div class="swiper-slide">
+              <div class="swiper-slide-content">
+                <img class="swiper-slide-image" src="images/phone.png" alt="">
+                <div class="swiper-slide-content-text">
+                  <p class="hero-title">Lorem Ipsum is simply</p>
+                  <p class="hero-subtitle">
+                    Dummy text of the printing & typesetting
+                    text of the printing & typesetting
+                  </p>
+                  <button class="button slide-button"><img src="images/button.png" class="button-img" alt="img">Sing up now</button>
+                </div>
+              </div>
+              <img class="swiper-background-image" src="images/background.png" alt="">
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <div class="swiper-pagination"></div>
+
+          <!-- If we need navigation buttons -->
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+
+          <!-- If we need scrollbar -->
+          <div class="swiper-scrollbar"></div>
+        </div>
+      </section>
+      <section class="advantages">
+        <div class="container">
+          <div class="grid">
+            <div class="width-1-1 width-1-3-md">
+              <div class="card">
+                <div class="card-image bg-color-blue">
+                  <img src="images/pen.png" alt="pen">
+                </div>
+                <div class="card-content">
+                  <div class="card-title">Good solutions</div>
+                  <div class="card-description">
+                    Lorem Ipsum is not simply random text. It has roots in a piece
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-1-1 width-1-3-md">
+              <div class="card">
+                <div class="card-image bg-color-red">
+                  <img src="images/display.png" alt="display">
+                </div>
+                <div class="card-content">
+                  <div class="card-title">Nice visibility</div>
+                  <div class="card-description">
+                    Lorem Ipsum is not simply random text. It has roots in a piece
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="width-1-1 width-1-3-md">
+              <div class="card">
+                <div class="card-image bg-color-yellow">
+                  <img src="images/shipping-card-small.png" alt="small shipping card">
+                </div>
+                <div class="card-content">
+                  <div class="card-title">Better quality</div>
+                  <div class="card-description">
+                    Lorem Ipsum is not simply random text. It has roots in a piece
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </div>
-    </header>
-    <div class="test" style="width: 100%; height: 300px; background-color: #000;"></div>
+      </section>
+      <section class="section-shop">
+        <div class="container">
+          <div class="grid">
+            <div class="width-1-1 width-1-2-md section-shop-top">
+                <h2 class="section-shop-title">The Shopping cart</h2>
+              <div class="card-shop">
+                <figure>
+                  <img src="images/cart.png" alt="img">
+                </figure>
+              </div>
+            </div>
+            <div class="width-1-1 width-1-2-md section-shop-bottom">
+                <h3 class="section-shop-subtitle">Some Bullet text here</h3>
+                <p class="section-shop-description">Lorem Ipsum is simply dummy text of the printing and typesetting
+                  Lorem Ipsum has been the industry's standard dummy text ever
+                  When an unknown printer took a galley of type and scrambled
+                  It to make a type specimen book. It has survived not only five centuries
+                  But also the leap into electronic typesetting,
+                  Remaining essentially unchanged. It was popularised
+                  The release of Letraset sheets containing Lorem Ipsum passages</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <footer class="footer">
+        <div class="footer-description">Copyright © 2012-2013 cssauthor.com</div>
+      </footer>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.5.0/js/swiper.min.js"></script>
+    <script>
+      var mySwiper = new Swiper ('.swiper-container', {
+        // Optional parameters
+        direction: 'horizontal',
+        loop: true,
+
+        // If we need pagination
+        pagination: {
+          el: '.swiper-pagination',
+        },
+
+        // Navigation arrows
+        navigation: {
+          nextEl: '.swiper-button-next',
+          prevEl: '.swiper-button-prev',
+        },
+
+        // And if we need scrollbar
+        scrollbar: {
+          el: '.swiper-scrollbar',
+        },
+      })
+    </script>
   </body>
 </html>
